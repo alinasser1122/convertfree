@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Sparkles, Github, Shield } from 'lucide-react';
 import { Link } from '@/i18n/routing';
+import { SmartLinkButton } from '@/components/ads/SmartLinkButton';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -55,7 +56,8 @@ export function Footer() {
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-slate-200 dark:border-white/5">
           <p className="text-xs text-muted">{t('copyright', { year })}</p>
-          <div className="flex items-center gap-3 text-xs text-muted">
+          <div className="flex items-center gap-4 text-xs text-muted">
+            <SmartLinkButton />
             <span className="inline-flex items-center gap-1">
               <Shield className="h-3.5 w-3.5" />
               100% client-side

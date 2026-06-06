@@ -7,6 +7,7 @@ import { routing } from '@/i18n/routing';
 import { ThemeProvider } from '@/components/providers/ThemeProvider';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
+import { AdScripts } from '@/components/ads/AdScripts';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -69,6 +70,7 @@ export default async function LocaleLayout({
             </div>
           </NextIntlClientProvider>
         </ThemeProvider>
+        <AdScripts />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

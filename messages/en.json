@@ -191,5 +191,9 @@
     "save": "Save",
     "delete": "Delete",
     "close": "Close"
+  },
+  "ad": {
+    "sponsored": "Sponsored",
+    "smartOffer": "Smart offer"
   }
 }
