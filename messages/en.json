@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "FreeConvertX - All formats, free forever",
+    "description": "Free, private, browser-based image converter. Convert HEIC, PNG, JPG, WEBP, AVIF, PDF and more. Your files never leave your device."
+  },
+  "nav": {
+    "home": "Home",
+    "converter": "Converter",
+    "tools": "Tools",
+    "resize": "Resize",
+    "crop": "Crop",
+    "toPdf": "Image to PDF",
+    "gif": "GIF Frames",
+    "url": "From URL",
+    "privacy": "Privacy",
+    "faq": "FAQ",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle theme",
+    "changeLanguage": "Change language"
+  },
+  "hero": {
+    "badge": "100% Private. No upload. No tracking.",
+    "title": "All formats,",
+    "titleAccent": "free forever",
+    "subtitle": "Convert images in your browser. No uploads, no servers, no limits. HEIC, PNG, JPG, WEBP, AVIF, PDF and more.",
+    "ctaPrimary": "Start converting",
+    "ctaSecondary": "See all tools",
+    "stat1": "Formats supported",
+    "stat2": "Files per batch",
+    "stat3": "Files uploaded"
+  },
+  "formats": {
+    "title": "Popular conversions",
+    "subtitle": "Pick a quick path or use the universal converter below",
+    "items": {
+      "heicJpg": "HEIC to JPG",
+      "pngWebp": "PNG to WEBP",
+      "jpgPng": "JPG to PNG",
+      "webpJpg": "WEBP to JPG",
+      "pngPdf": "PNG to PDF",
+      "jpgPdf": "JPG to PDF",
+      "pngAvif": "PNG to AVIF",
+      "gifPng": "GIF frames to PNG"
+    }
+  },
+  "converter": {
+    "title": "Universal image converter",
+    "subtitle": "Drag, drop, convert. Up to 50+ files at once.",
+    "options": "Options",
+    "dropTitle": "Drop images here",
+    "dropSubtitle": "or click to browse — PNG, JPG, WEBP, HEIC, AVIF, GIF, BMP, SVG, TIFF",
+    "browse": "Browse files",
+    "fromUrl": "From URL",
+    "urlPlaceholder": "https://example.com/image.png",
+    "fetch": "Fetch",
+    "fetching": "Fetching...",
+    "outputFormat": "Output format",
+    "quality": "Quality",
+    "resize": "Resize",
+    "keepOriginal": "Keep original size",
+    "width": "Width",
+    "height": "Height",
+    "keepRatio": "Keep aspect ratio",
+    "rename": "Auto rename",
+    "renamePattern": "Pattern (use '{'n'}' for number, '{'name'}' for original)",
+    "convertAll": "Convert all",
+    "converting": "Converting...",
+    "downloadAll": "Download all as ZIP",
+    "clearAll": "Clear all",
+    "addMore": "Add more",
+    "estimatedSize": "Estimated",
+    "originalSize": "Original",
+    "savings": "Savings",
+    "dimensions": "Dimensions",
+    "format": "Format",
+    "status": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "done": "Done",
+      "error": "Failed"
+    },
+    "download": "Download",
+    "remove": "Remove",
+    "errors": {
+      "unsupported": "Unsupported file type",
+      "urlFailed": "Could not fetch image from URL",
+      "convertFailed": "Conversion failed"
+    }
+  },
+  "tools": {
+    "title": "Image tools",
+    "subtitle": "Everything you need, in one place",
+    "resize": {
+      "title": "Resize image",
+      "subtitle": "Change dimensions while preserving quality",
+      "mode": "Mode",
+      "modePixels": "Pixels",
+      "modePercent": "Percent",
+      "percent": "Percent",
+      "apply": "Apply & download"
+    },
+    "crop": {
+      "title": "Crop image",
+      "subtitle": "Trim with precision using preset ratios or free mode",
+      "ratio": "Aspect ratio",
+      "free": "Free",
+      "apply": "Apply & download"
+    },
+    "pdf": {
+      "title": "Images to PDF",
+      "subtitle": "Combine multiple images into a single PDF",
+      "addImages": "Add images",
+      "pageSize": "Page size",
+      "orientation": "Orientation",
+      "portrait": "Portrait",
+      "landscape": "Landscape",
+      "generate": "Generate PDF",
+      "generating": "Generating...",
+      "moveUp": "Move up",
+      "moveDown": "Move down"
+    },
+    "gif": {
+      "title": "GIF frames",
+      "subtitle": "Extract every frame as PNG or JPG",
+      "frameFormat": "Frame format",
+      "extract": "Extract frames",
+      "extracting": "Extracting...",
+      "framesFound": "{count} frames found",
+      "downloadZip": "Download all frames"
+    }
+  },
+  "privacy": {
+    "badge": "Privacy first",
+    "title": "Your images never leave your device",
+    "description": "All processing happens locally inside your browser. We have no servers receiving your files. No tracking. No analytics. No cookies. No accounts.",
+    "points": {
+      "noUpload": "No server uploads",
+      "noTracking": "No tracking or analytics",
+      "noAccount": "No accounts or login",
+      "openSource": "Transparent, client-side code"
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": {
+      "q1": {
+        "q": "Is FreeConvertX really free?",
+        "a": "Yes — completely free, with no limits, no watermarks, no signups."
+      },
+      "q2": {
+        "q": "Where are my images processed?",
+        "a": "Entirely in your browser using the Canvas API and WebAssembly. Nothing is uploaded."
+      },
+      "q3": {
+        "q": "What formats are supported?",
+        "a": "Import: PNG, JPG, JPEG, WEBP, HEIC, HEIF, GIF, BMP, SVG, AVIF, TIFF. Export: JPG, PNG, WEBP, AVIF, PDF, HEIC, BMP, GIF."
+      },
+      "q4": {
+        "q": "Can I convert many files at once?",
+        "a": "Yes. Drop 50+ images and convert them all to the same format, then download as a ZIP."
+      },
+      "q5": {
+        "q": "Does it work on iPhone HEIC photos?",
+        "a": "Yes. HEIC and HEIF are decoded directly in your browser."
+      },
+      "q6": {
+        "q": "Do I need to install anything?",
+        "a": "No. FreeConvertX is a website. Open it and start converting."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "All formats, free forever.",
+    "product": "Product",
+    "tools": "Tools",
+    "company": "Company",
+    "about": "About",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "copyright": "© {year} FreeConvertX. All rights reserved.",
+    "madeWith": "Built with privacy in mind."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "back": "Back",
+    "next": "Next",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "close": "Close"
+  }
+}

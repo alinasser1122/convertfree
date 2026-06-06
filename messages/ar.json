@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "FreeConvertX - لكل الصيغ، مجاناً للأبد",
+    "description": "محول صور مجاني وآمن يعمل داخل المتصفح. حوّل HEIC، PNG، JPG، WEBP، AVIF، PDF والمزيد. ملفاتك لا تغادر جهازك أبداً."
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "converter": "المحول",
+    "tools": "الأدوات",
+    "resize": "تغيير الحجم",
+    "crop": "اقتصاص",
+    "toPdf": "صور إلى PDF",
+    "gif": "إطارات GIF",
+    "url": "من رابط",
+    "privacy": "الخصوصية",
+    "faq": "الأسئلة الشائعة",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "toggleTheme": "تبديل الوضع",
+    "changeLanguage": "تغيير اللغة"
+  },
+  "hero": {
+    "badge": "خصوصية كاملة. بدون رفع. بدون تتبع.",
+    "title": "لكل الصيغ،",
+    "titleAccent": "مجاناً للأبد",
+    "subtitle": "حوّل صورك داخل متصفحك. بدون رفع، بدون خوادم، بدون قيود. HEIC، PNG، JPG، WEBP، AVIF، PDF والمزيد.",
+    "ctaPrimary": "ابدأ التحويل",
+    "ctaSecondary": "عرض كل الأدوات",
+    "stat1": "صيغة مدعومة",
+    "stat2": "ملفات في الدفعة",
+    "stat3": "ملف تم رفعه"
+  },
+  "formats": {
+    "title": "تحويلات شائعة",
+    "subtitle": "اختر تحويلاً سريعاً أو استخدم المحول الشامل أدناه",
+    "items": {
+      "heicJpg": "HEIC إلى JPG",
+      "pngWebp": "PNG إلى WEBP",
+      "jpgPng": "JPG إلى PNG",
+      "webpJpg": "WEBP إلى JPG",
+      "pngPdf": "PNG إلى PDF",
+      "jpgPdf": "JPG إلى PDF",
+      "pngAvif": "PNG إلى AVIF",
+      "gifPng": "إطارات GIF إلى PNG"
+    }
+  },
+  "converter": {
+    "title": "المحول الشامل",
+    "subtitle": "اسحب وأفلت وحوّل. أكثر من 50 ملفاً في وقت واحد.",
+    "options": "الخيارات",
+    "dropTitle": "أفلت الصور هنا",
+    "dropSubtitle": "أو انقر للتصفح — PNG، JPG، WEBP، HEIC، AVIF، GIF، BMP، SVG، TIFF",
+    "browse": "تصفح الملفات",
+    "fromUrl": "من رابط",
+    "urlPlaceholder": "https://example.com/image.png",
+    "fetch": "جلب",
+    "fetching": "جاري الجلب...",
+    "outputFormat": "صيغة الإخراج",
+    "quality": "الجودة",
+    "resize": "تغيير الحجم",
+    "keepOriginal": "الحفاظ على الحجم الأصلي",
+    "width": "العرض",
+    "height": "الارتفاع",
+    "keepRatio": "الحفاظ على نسبة الأبعاد",
+    "rename": "إعادة تسمية تلقائية",
+    "renamePattern": "النمط (استخدم '{'n'}' للرقم و '{'name'}' للاسم الأصلي)",
+    "convertAll": "تحويل الكل",
+    "converting": "جاري التحويل...",
+    "downloadAll": "تنزيل الكل كـ ZIP",
+    "clearAll": "مسح الكل",
+    "addMore": "إضافة المزيد",
+    "estimatedSize": "متوقع",
+    "originalSize": "الأصلي",
+    "savings": "التوفير",
+    "dimensions": "الأبعاد",
+    "format": "الصيغة",
+    "status": {
+      "pending": "في الانتظار",
+      "processing": "قيد المعالجة",
+      "done": "تم",
+      "error": "فشل"
+    },
+    "download": "تنزيل",
+    "remove": "حذف",
+    "errors": {
+      "unsupported": "نوع ملف غير مدعوم",
+      "urlFailed": "تعذّر جلب الصورة من الرابط",
+      "convertFailed": "فشل التحويل"
+    }
+  },
+  "tools": {
+    "title": "أدوات الصور",
+    "subtitle": "كل ما تحتاجه في مكان واحد",
+    "resize": {
+      "title": "تغيير حجم الصورة",
+      "subtitle": "غيّر الأبعاد مع الحفاظ على الجودة",
+      "mode": "الوضع",
+      "modePixels": "بكسل",
+      "modePercent": "نسبة مئوية",
+      "percent": "النسبة",
+      "apply": "تطبيق وتنزيل"
+    },
+    "crop": {
+      "title": "اقتصاص الصورة",
+      "subtitle": "اقتصاص دقيق بنسب جاهزة أو حر",
+      "ratio": "نسبة الأبعاد",
+      "free": "حر",
+      "apply": "تطبيق وتنزيل"
+    },
+    "pdf": {
+      "title": "صور إلى PDF",
+      "subtitle": "ادمج عدة صور في ملف PDF واحد",
+      "addImages": "إضافة صور",
+      "pageSize": "حجم الصفحة",
+      "orientation": "الاتجاه",
+      "portrait": "عمودي",
+      "landscape": "أفقي",
+      "generate": "إنشاء PDF",
+      "generating": "جاري الإنشاء...",
+      "moveUp": "تحريك للأعلى",
+      "moveDown": "تحريك للأسفل"
+    },
+    "gif": {
+      "title": "إطارات GIF",
+      "subtitle": "استخرج كل إطار كـ PNG أو JPG",
+      "frameFormat": "صيغة الإطار",
+      "extract": "استخراج الإطارات",
+      "extracting": "جاري الاستخراج...",
+      "framesFound": "تم العثور على {count} إطار",
+      "downloadZip": "تنزيل كل الإطارات"
+    }
+  },
+  "privacy": {
+    "badge": "الخصوصية أولاً",
+    "title": "صورك لا تغادر جهازك أبداً",
+    "description": "تتم كل المعالجة محلياً داخل متصفحك. لا توجد لدينا خوادم تستقبل ملفاتك. لا تتبع. لا تحليلات. لا ملفات تعريف ارتباط. لا حسابات.",
+    "points": {
+      "noUpload": "لا رفع للخوادم",
+      "noTracking": "لا تتبع ولا تحليلات",
+      "noAccount": "لا حسابات ولا تسجيل دخول",
+      "openSource": "كود شفاف من جانب العميل"
+    }
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": {
+      "q1": {
+        "q": "هل FreeConvertX مجاني فعلاً؟",
+        "a": "نعم، مجاني تماماً بدون قيود ولا علامات مائية ولا تسجيل."
+      },
+      "q2": {
+        "q": "أين تُعالج صوري؟",
+        "a": "بالكامل داخل متصفحك باستخدام Canvas API و WebAssembly. لا يتم رفع أي شيء."
+      },
+      "q3": {
+        "q": "ما الصيغ المدعومة؟",
+        "a": "الاستيراد: PNG, JPG, JPEG, WEBP, HEIC, HEIF, GIF, BMP, SVG, AVIF, TIFF. التصدير: JPG, PNG, WEBP, AVIF, PDF, HEIC, BMP, GIF."
+      },
+      "q4": {
+        "q": "هل أستطيع تحويل ملفات كثيرة دفعة واحدة؟",
+        "a": "نعم، أفلت أكثر من 50 صورة وحوّلها كلها لنفس الصيغة ثم نزّلها كـ ZIP."
+      },
+      "q5": {
+        "q": "هل يدعم صور HEIC من iPhone؟",
+        "a": "نعم، يتم فك تشفير HEIC و HEIF مباشرة داخل متصفحك."
+      },
+      "q6": {
+        "q": "هل أحتاج لتثبيت شيء؟",
+        "a": "لا، FreeConvertX موقع. افتحه وابدأ التحويل فوراً."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "لكل الصيغ، مجاناً للأبد.",
+    "product": "المنتج",
+    "tools": "الأدوات",
+    "company": "الشركة",
+    "about": "عن الموقع",
+    "privacy": "الخصوصية",
+    "terms": "الشروط",
+    "contact": "تواصل",
+    "copyright": "© {year} FreeConvertX. كل الحقوق محفوظة.",
+    "madeWith": "صُمم مع وضع خصوصيتك في الاعتبار."
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ ما",
+    "back": "رجوع",
+    "next": "التالي",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "close": "إغلاق"
+  }
+}
